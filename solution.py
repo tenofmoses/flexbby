@@ -8,7 +8,7 @@ def check_passport_date(pass_date, date_bright):
 
     date_bright = datetime(year_b, month_b, day_b)
     pass_date = datetime(year_p, month_p, day_p)
-    
+
     day_14 = date_bright + relativedelta(years=+14)
     day_21 = date_bright + relativedelta(years=+21)
     day_21_1 = date_bright + relativedelta(years=+21, months=+1)
